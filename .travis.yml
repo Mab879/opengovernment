@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - ree
+  - 1.9.2
+  - 1.9.3
+  - ruby-2.0.0-p353
+install: bundle install
+before_install:
+  - gem update --system
+before_script:
+  - "bundle exec rake db:migrate"
+
+script: "rspec spec/"
