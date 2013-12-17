@@ -7,6 +7,7 @@ rvm:
 install: bundle install
 before_install:
   - gem update --system
+  - bundle update rails
 before_script:
   - "cp config/database-example.yml config/database.yml"
   - "bundle exec rake db:migrate"
