@@ -1,5 +1,5 @@
 OpenGovernment is a Ruby on Rails application for aggregating and presenting open government data.
-
+[![Coverage Status](https://coveralls.io/repos/Mab879/opengovernment/badge.png)](https://coveralls.io/r/Mab879/opengovernment)
 # Overview
 
 This project powers [OpenGovernment.org](http://opengovernment.org) and was started by the [Participatory Politics Foundation](http://ppolitics.org). James McKinney of [Open North](http://opennorth.ca) is tech lead.
